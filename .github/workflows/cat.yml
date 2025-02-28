@@ -1,4 +1,4 @@
-name: Cats 😺
+name: treat 😺
 
 on:
   pull_request_target:
@@ -12,9 +12,9 @@ permissions:
 
 jobs:
   aCatForCreatingThePullRequest:
-    name: 'A cat for your effort!'
+    name: 'A treat for your effort!'
     runs-on: 'ubuntu-latest'
     steps:
-      - uses: parthiv13/treat@v0.2
+      - uses: parthiv13/treat@final
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
