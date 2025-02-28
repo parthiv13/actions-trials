@@ -1,7 +1,5 @@
 name: Cats 😺
 
-
-
 on:
   pull_request_target:
     types:
