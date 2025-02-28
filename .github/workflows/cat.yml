@@ -1,10 +1,16 @@
 name: Cats 😺
 
+
+
 on:
   pull_request_target:
     types:
       - opened
       - reopened
+
+permissions:
+  pull-requests: write  # Allows posting comments on PRs
+  issues: write
 
 jobs:
   aCatForCreatingThePullRequest:
