@@ -16,6 +16,6 @@ jobs:
     name: 'A treat for your effort!'
     runs-on: 'ubuntu-latest'
     steps:
-      - uses: parthiv13/PRaiseMeSenpai@0.1
+      - uses: parthiv13/PRaiseMeSenpai@0.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
