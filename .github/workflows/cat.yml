@@ -10,12 +10,11 @@ permissions:
   pull-requests: write  # Allows posting comments on PRs
   issues: write
 
-
 jobs:
   aCatForCreatingThePullRequest:
     name: 'A treat for your effort!'
     runs-on: 'ubuntu-latest'
     steps:
-      - uses: parthiv13/PRaiseMeSenpai@0.3
+      - uses: parthiv13/PRaiseMeSenpai@0.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
